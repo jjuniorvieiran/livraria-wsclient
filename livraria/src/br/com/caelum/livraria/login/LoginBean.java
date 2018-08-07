@@ -1,7 +1,6 @@
 package br.com.caelum.livraria.login;
 
 import javax.enterprise.context.RequestScoped;
-import javax.enterprise.inject.Model;
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
 import javax.inject.Inject;
@@ -16,6 +15,7 @@ import br.com.caelum.livraria.modelo.Usuario;
 public class LoginBean {
 	
 	private Usuario usuario = new Usuario();
+	
     @Inject
 	private UsuarioDao dao;
 	
